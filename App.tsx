@@ -15,5 +15,5 @@ export default function App() {
     return <AppLoading />;
   }
 
-  return <ThemeProvider theme={theme}></ThemeProvider>;
+  return (<ThemeProvider theme={theme}></ThemeProvider>);
 }
