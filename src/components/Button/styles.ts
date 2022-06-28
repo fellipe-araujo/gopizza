@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components/native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export type TypeProps = 'primary' | 'secondary';
 
@@ -8,9 +7,9 @@ type ContainerProps = {
 };
 
 export const Container = styled.TouchableOpacity<ContainerProps>`
-  flex: 1;
   max-height: 56px;
   min-height: 56px;
+  padding: 0 10px;
   border-radius: 12px;
   justify-content: center;
   align-items: center;
